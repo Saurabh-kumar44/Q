@@ -6,7 +6,7 @@ int GCD(int a, int b){
         return b;
     }
     else{
-        return GCD(a,a%b);
+        return GCD(b,a%b);
     }
 }
 
